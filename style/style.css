@@ -9,14 +9,11 @@ body {
     text-align: center;
 }
 
-.footer {
-    background-color: #212529;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-}
-
 img {
     width: 10%;
     height: auto;
+}
+
+.card-body {
+    height: 25dvh;
 }
