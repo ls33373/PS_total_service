@@ -16,15 +16,15 @@
     <div class="container">
         <h1 class="display-5 fw-bold">풍생 웹서비스</h1>
         <p class="fs-3 fw-bold">by Coding Class</p>
-        <p class="lead fs-6 mt-3">학생들이 직접 기획하고 개발한 웹사이트를 한 곳에서 만나보세요</p>
     </div>
 </div>
 
 <!-- Projects Section -->
 <div class="py-5">
     <div class="container">
-        <div class="row g-4">
 
+        <!-- 첫째 줄 -->
+        <div class="row g-4">
             <!-- 카드 1 -->
             <div class="col-md-4">
                 <div class="card h-100">
@@ -69,55 +69,51 @@
                     </div>
                 </div>
             </div>
+        </div>
 
+        <!-- 둘째 줄 -->
+        <div class="row g-4 mt-1 justify-content-center">
             <!-- 카드 4 -->
             <div class="col-md-4">
-                <div class="card h-100">
-                    <div class="card-body position-relative">
-                        <div class="d-flex flex-row mb-2">
-                            <h5 class="card-title fw-bold fs-4 me-3">풍생고 익명 채팅</h5>
-                            <img src="images/chat.png" alt="." class="chat-img">
+                    <div class="card h-100">
+                        <div class="card-body position-relative">
+                            <div class="d-flex flex-row mb-2">
+                                <h5 class="card-title fw-bold fs-4 me-3">풍생고 익명 채팅</h5>
+                                <img src="images/chat.png" alt="." class="chat-img">
+                            </div>
+                            <p class="card-text">풍생고등학교 학생회에게 학교 관련 궁금한 점을 부담없이 익명으로 질문할 수 있는 채팅방입니다.</p>
+                            <a href="#"
+                               class="btn btn-primary position-absolute bottom-0 mb-3 mt-3" id="chat-btn">사이트 방문</a>
                         </div>
-                        <p class="card-text">풍생고등학교 학생회에게 학교 관련 궁금한 점을 부담없이 익명으로 질문할 수 있는 채팅방입니다.</p>
-                        <a href="https://psh-chat.onrender.com/"
-                           class="btn btn-primary position-absolute bottom-0 mb-3 mt-3">사이트 방문</a>
+                    </div>
+                </div>
+    
+                <!-- 카드 5 -->
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body position-relative">
+                            <div class="d-flex flex-row mb-2">
+                                <h5 class="card-title fw-bold fs-4 me-2">학급 분실물 센터</h5>
+                                <p id="">🏫</p>
+                            </div>
+                            <p class="card-text">교내 분실물을 실시간으로 조회하여 위치를 파악하고, 습득물 발생 시 담당 선생님께 즉시 알림 메시지를 전송하는 시스템입니다.</p>
+                            <a href="https://school-guidance-program-964ce.web.app/"
+                               class="btn btn-primary position-absolute bottom-0 mb-3 mt-3">사이트 방문</a>
+                        </div>
                     </div>
                 </div>
             </div>
-
-            <!-- 카드 5 -->
-            <div class="col-md-4">
-                <div class="card h-100">
-                    <div class="card-body position-relative">
-                        <div class="d-flex flex-row mb-2">
-                            <h5 class="card-title fw-bold fs-4 me-2">분실물 찾기</h5>
-                            <img src="" alt=".">
-                        </div>
-                        <p class="card-text">간단한 설명을 여기에 작성하세요.</p>
-                        <a href="#"
-                           class="btn btn-primary position-absolute bottom-0 mb-3 mt-3">사이트 방문</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- 카드 6 -->
-            <div class="col-md-4">
-                <div class="card h-100">
-                    <div class="card-body position-relative">
-                        <div class="d-flex flex-row mb-2">
-                            <h5 class="card-title fw-bold fs-4 me-2">용의복장 체크</h5>
-                            <img src="" alt=".">
-                        </div>
-                        <p class="card-text">교사가 학생의 복장 착용, 전자기기 사용 등의 교칙 위반 사항을 기록하는 관리 시스템입니다.</p>
-                        <a href="#"
-                           class="btn btn-primary position-absolute bottom-0 mb-3 mt-3">사이트 방문</a>
-                    </div>
-                </div>
-            </div>
-
         </div>
     </div>
 </div>
+
+<!-- 현재 개발 중 표시 모달 -->
+<!-- 모달 만들고 표시 및 제거 구현 -->
+
+<script>
+    const chatBtn = document.getElementById("chat-btn");
+
+</script>
 
 </body>
 </html>
